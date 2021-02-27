@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// for landing login page
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+// for register routing
+Route::get('/register',function(){
+    return view('site.register');
+});
+
+// for dashboard route
+Route::get('/dashboard', function () {
+    return view('dashboard.dashboard');
+});
+

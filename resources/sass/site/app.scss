@@ -1,0 +1,35 @@
+@import "~daemonite-material/css/material.min.css";
+
+@import "login";
+
+.logo-image {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    // margin-top: px;
+}
+.nav-container.top{
+    position: absolute;
+    // top: 2px;
+    left: 5px;
+
+}
+.navv{
+    font-family: 'Ballet',
+    cursive;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+// .container{
+//     login{
+//         background-color: $bacColor;
+//     }
+// }
+
+
+
+
+
